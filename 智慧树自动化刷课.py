@@ -240,8 +240,8 @@ class Zhihuishu(object):
         self.start_thread()
 
 def main():
-    username = 15738570521
-    password = 'WSKwsk20000617'
+    username = input('please input your username>>>')
+    password = input('please input your password>>>')
     spider = Zhihuishu(username,password)
     spider.run()
 
